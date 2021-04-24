@@ -1,0 +1,21 @@
+Fundamental distinction between Supervised Machine Learning and Unsupervised Machine Learning:
+
+The idea is that supervised machine learning has well understood and specific features as its target labels, whereas unsupervised machine learning has
+very general features (fundamental features) as its target labels. This is because supervised machine learning usually considers datasets that we already 
+have detailed knowledge of, so we make predictions on specific target feature(s). Whereas in unsupervised machine learning, we consider datasets to which 
+we don't have detailed knowledge of or if we only care about the general structure of the dataset, thus we make predictions on general target features(s).
+
+The predicted/output value of supervised machine learning is/are "labels" of objects, which are features of objects. 
+These features can be partitioned into two categories. Features which are possessed within the object itself or features which are not possessed 
+within the object itself (features relative to other objects). By features possessed within the object itself, I mean property of the object that 
+can be attained when considering the object without its relation to other objects. E.g. color of an object, size of an object. But not say, cluster 
+of object it belongs to, or distance to the nearest object. 
+
+The latter type (relative features) are the most basic and universal features, because it is based on space and time which are our intuitions - 
+it can be known unconditionally. E.g. Clustering (closeness of objects in space such that different clumps or clusters are considered unique sets). 
+
+Target features or "labels" in supervised machine learning can be both types. 
+
+Target features or "labels" in unsupervised machine learning is the latter type, because the problem posed by unsupervised machine learning premises 
+that we don't know which target feature our objects possess, so really the only types of features we can know are the 'relative features' or 
+space-time features which can be known unconditionally. 
